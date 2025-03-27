@@ -5,8 +5,19 @@ import humanize
 import hashlib
 from datetime import datetime
 from scripts.database import DatabaseHandler
+import json
+import logging
 
 class FileHandler:
+    with open(os.path.expanduser("~/Projects/PyBak/config/config.json"), "r") as f:
+        config = json.load(f)
+
+    logging.basicConfig(
+            filename=os.path.expanduser(config["log_file"]),   # Log file where logs will be saved
+            level=logging.DEBUG,          # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+            format='%(asctime)s - %(levelname)s - %(message)s'  # Log format with timestamp
+        )
+
     def __init__(self, config):
         self.src_dir = os.path.expanduser(config["source_directory"])
         self.tgt_dir = os.path.expanduser(config["destination_directory"])
@@ -24,12 +35,12 @@ class FileHandler:
 
             if os.path.isfile(file_path):
                 hexdigest = hashlib.sha256(open(file_path, 'rb').read()).hexdigest()  
-                print(f"Processing: {file_path}")
+                logging.info(f"Processing: {file_path}")
 
                 dup = self.db_handler.check_dups(hexdigest)
                 #print(f"Dup Value: {dup}, {dup[0][0]}")
                 if dup and dup[0] >= 1:
-                    print(f"Duplicate file so skipping archieval")
+                    logging.info(f"Duplicate file so skipping archieval")
                     continue
                     
                 timestamp = datetime.now().strftime(self.timestamp_format)
@@ -46,7 +57,7 @@ class FileHandler:
                 # Insert record into database
                 self.db_handler.insert_file_record(file, compressed_filename, orig_size, new_size, hexdigest)
 
-        print("Compression completed.")
+        logging.info("Compression completed.")
 
     def get_backup_records(self):
         """Fetch and print all database records."""
