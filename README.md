@@ -55,5 +55,4 @@ Future Enhancements
 - Implement a REST API to trigger jobs remotely.
 - Add cloud storage integration (AWS S3, Google Drive, etc.) for remote backups.
 ---
-This document outlines the full scope of PyBak, ensuring a robust, **enterprise-ready** backup
-system.
+
