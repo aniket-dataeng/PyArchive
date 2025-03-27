@@ -1,0 +1,15 @@
+# Ignore logs and reports
+logs/
+reports/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore config files with sensitive data
+config/config.json
+config/config.yaml
+
