@@ -34,6 +34,11 @@ class DatabaseHandler:
         self.cursor.execute("SELECT * FROM PyBak_Details")
         return self.cursor.fetchall()
 
+    def check_dups(self, hexdigest):
+        """Check for the duplicate hex digest value."""
+        self.cursor.execute("SELECT count(1) FROM PyBak_Details where hexdigest = (?)", (hexdigest,))
+        return self.cursor.fetchone()
+
     def close(self):
         """Close the database connection."""
         self.conn.close()

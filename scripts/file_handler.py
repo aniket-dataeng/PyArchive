@@ -23,12 +23,20 @@ class FileHandler:
             file_path = os.path.join(self.src_dir, file)
 
             if os.path.isfile(file_path):
+                hexdigest = hashlib.sha256(open(file_path, 'rb').read()).hexdigest()  
                 print(f"Processing: {file_path}")
+
+                dup = self.db_handler.check_dups(hexdigest)
+                #print(f"Dup Value: {dup}, {dup[0][0]}")
+                if dup and dup[0] >= 1:
+                    print(f"Duplicate file so skipping archieval")
+                    continue
+                    
                 timestamp = datetime.now().strftime(self.timestamp_format)
                 compressed_filename = f"PyBak_{timestamp}_{file}.gz"
                 compressed_path = os.path.join(self.tgt_dir, compressed_filename)
                 orig_size = humanize.naturalsize(os.path.getsize(file_path))
-                hexdigest = hashlib.sha256(open(file_path, 'rb').read()).hexdigest()                
+                              
                 # Compress the file
                 with open(file_path, "rb") as f_in, gzip.open(compressed_path, "wb") as f_out:
                     shutil.copyfileobj(f_in, f_out, length=1024 * 1024)
