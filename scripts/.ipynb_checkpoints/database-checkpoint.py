@@ -18,15 +18,16 @@ class DatabaseHandler:
                 COMPRESSED_FNAME TEXT,
                 ORIG_SIZE TEXT,
                 COMPRESSED_SIZE TEXT,
-                HEXDIGEST TEXT
+                HEXDIGEST TEXT,
+                RUN_TOKEN TEXT
             );
             '''
         )
         self.conn.commit()
 
-    def insert_file_record(self, file,filename,orig_size,new_size,hexdigest):
+    def insert_file_record(self, file,filename,orig_size,new_size,hexdigest,run_token):
         """Insert a new compressed file record into the database."""
-        self.cursor.execute("INSERT INTO PyBak_Details (FNAME, COMPRESSED_FNAME, ORIG_SIZE, COMPRESSED_SIZE,hexdigest) VALUES (?,?,?,?,?)", (file,filename,orig_size,new_size,hexdigest,))
+        self.cursor.execute("INSERT INTO PyBak_Details (FNAME, COMPRESSED_FNAME, ORIG_SIZE, COMPRESSED_SIZE,hexdigest, run_token) VALUES (?,?,?,?,?,?)", (file,filename,orig_size,new_size,hexdigest,run_token,))
         self.conn.commit()
 
     def get_all_records(self):
@@ -38,6 +39,11 @@ class DatabaseHandler:
         """Check for the duplicate hex digest value."""
         self.cursor.execute("SELECT count(1) FROM PyBak_Details where hexdigest = (?)", (hexdigest,))
         return self.cursor.fetchone()
+
+    def generate_report(self, run_token):
+        """Check for the duplicate hex digest value."""
+        self.cursor.execute("SELECT FNAME, COMPRESSED_FNAME, ORIG_SIZE, COMPRESSED_SIZE,hexdigest FROM PyBak_Details where run_token = (?)", (run_token,))
+        return self.cursor.fetchall()
 
     def close(self):
         """Close the database connection."""

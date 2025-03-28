@@ -13,4 +13,4 @@ file_handler = FileHandler(config)
 file_handler.compress_files()
 
 # Print backup records
-file_handler.get_backup_records()
+#file_handler.get_backup_records()
