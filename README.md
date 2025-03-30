@@ -45,7 +45,9 @@ This project automates file compression, archival, logging, and reporting. It en
 
 ## Email Notification Example
 ```
+![image](https://github.com/user-attachments/assets/43c8958f-e631-4612-854f-4210808cb496)
 
+![image](https://github.com/user-attachments/assets/9b52585f-538f-4db6-a7e3-7c355bc19c97)
 ```
 
 ## Setup & Usage
