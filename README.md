@@ -3,6 +3,19 @@
 ## Overview
 This project automates file compression, archival, logging, and reporting. It ensures that duplicate files are not processed using a hash-based mechanism and integrates email notifications for status updates.
 
+## Concepts Used
+This project integrates multiple core concepts from Data Engineering, Python scripting, and automation, including:
+
+1. File Compression & Archiving
+2. Duplicate File Handling
+3. Logging & Monitoring
+4. Automated Email Notifications
+5. SQLite-based Metadata Storage
+6. Automated Report Generation
+7. Git & GitHub Version Control
+8. Environment Variable Management
+9. Unit Testing with Pytest
+
 ## Features
 - **File Compression**: Compresses files using GZIP and moves them to a destination folder.
 - **Duplicate Handling**: Uses SQLite to check file hashes and skips duplicates.
@@ -44,11 +57,10 @@ This project automates file compression, archival, logging, and reporting. It en
 6. **Email Notification**: A report of processed files is emailed.
 
 ## Email Notification Example
-```
-assets/EmailNotif.png
-assets/CompressionReport.png
+![EmailNotif](https://github.com/user-attachments/assets/06c7d304-edff-4765-a63c-8d5b4012e027)
 
-```
+![CompressionReport](https://github.com/user-attachments/assets/01dbee3f-9873-411d-8286-4910572e6e8c)
+
 
 ## Setup & Usage
 ### 1. Clone the repository
