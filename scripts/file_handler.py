@@ -111,7 +111,7 @@ class FileHandler:
             logging.info(f"Report generated {csv_filename}")
 
             email = EmailSender()
-            email.send_email("PyArk: Compression Report", "Please find the attached compression report!", csv_filename)
+            email.send_email("PyArchive: Compression Report", "Please find the attached compression report!", csv_filename)
         
         except Exception as e:
             logging.error(f"Error while generating report - FH: {e}")

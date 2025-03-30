@@ -31,11 +31,11 @@ class EmailSender:
                         encoders.encode_base64(part)
                         part.add_header("Content-Disposition", f"attachment; filename={os.path.basename(attachment_path)}")
                         msg.attach(part)
-                    self.logger.info(f"📎 Attached file: {attachment_path}")
+                    self.logger.info(f"Attached file: {attachment_path}")
                 except Exception as e:
-                    self.logger.error(f"❌ Failed to attach file: {e}")
+                    self.logger.error(f"Failed to attach file: {e}")
             else:
-                self.logger.warning(f"⚠️ File not found: {attachment_path}")
+                self.logger.warning(f"File not found: {attachment_path}")
 
         try:
             server = smtplib.SMTP(self.smtp_server, self.smtp_port)
@@ -43,6 +43,6 @@ class EmailSender:
             server.login(self.sender_email, self.sender_password)
             server.send_message(msg)
             server.quit()
-            self.logger.info("📩 Email sent successfully!")
+            self.logger.info("Email sent successfully!")
         except Exception as e:
-            print(f"❌ Failed to send email: {str(e)}") #self.logger.info
+            self.logger.info(f"Failed to send email: {str(e)}") 

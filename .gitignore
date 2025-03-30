@@ -1,6 +1,5 @@
 # Ignore logs and reports
 log/
-reports/
 
 # Ignore compiled Python files
 __pycache__/

@@ -1,45 +1,85 @@
-Project Name: PyBak
+# PyArchive - Automated File Archival using Python
 
-Objective: PyBak is a professional, automated file backup and compression solution that periodically scans a source directory, compresses files using GZIP, and moves them to a destination directory. It integrates with cloud storage, uses a REST API for remote control, and employs multithreading for optimized performance.
+## 📌 Overview
+This project automates file compression, archival, logging, and reporting. It ensures that duplicate files are not processed using a hash-based mechanism and integrates email notifications for status updates.
 
-Project Scope Core Functionality:
+## Features
+- **File Compression**: Compresses files using GZIP and moves them to a destination folder.
+- **Duplicate Handling**: Uses SQLite to check file hashes and skips duplicates.
+- **Logging**: Captures all events, errors, and processes in a log file.
+- **Email Notifications**: Sends an email with an attached report after processing.
+- **Reports**: Generates reports summarizing processed files.
+- **Automated Testing**: Includes `pytest` for unit testing.
 
-PyBak will have two directories:
-Source Directory - Where files arrive.
-Destination Directory - Where compressed files are stored.
-Uses GZIP compression to reduce file size.
-Compressed files follow the naming format: filename_timestamp.gz.
-Duplicate files are discarded if they already exist in the source directory.
-Maintains a log file and generates a report of compressed files.
-Sends reports via email to designated recipients.
-Runs every 2 minutes, scanning for new files, compressing them, and moving them to the destination directory.
-Advanced Features 1 Cloud Integration
+## Tech Stack
+- **Python** (Core programming language)
+- **SQLite** (Database for tracking processed files)
+- **shutil** (File compression)
+- **smtplib** (Email handling)
+- **Logging Module** (For maintaining logs)
+- **pytest** (For testing)
 
-Support for AWS S3 and Google Cloud Storage (GCS). PyBak - Advanced Project Document
-Option to upload compressed files directly to cloud storage. 2 Performance Optimization
-Implements multithreading/multiprocessing for faster file processing.
-Allows parallel compression of multiple files. 3 Database Integration
-Uses SQLite/PostgreSQL to track processed files.
-Stores metadata (filename, size, timestamp, hash) for each compressed file. 4 REST API for Remote Triggering
-Uses FastAPI to expose endpoints:
-/compress Triggers file compression.
-/status Displays active jobs.
-/logs Retrieves logs. 5 Deployment & CI/CD
-Dockerized application for portability.
-GitHub Actions to automate testing and deployment.
-Runs on Kubernetes for scalability. 6 Logging & Monitoring
-Logs stored in a database instead of plain text.
-Flask/Dash web UI for visualization and monitoring. 7 Security & Encryption
-AES-256 encryption for compressed files.
-OAuth-protected API for secure access.
-PyBak - Advanced Project Document Deployment & Execution
+## Directory Structure
+```
+📂 Automated-File-Archival-using-Python
+├── 📂 data		       # Directory where SQLite db file will be stored
+├── 📂 destination             # Compressed files are moved here
+├── 📂 log                     # Stores log files
+├── 📂 scipts		       # Scripts that are used
+├── 📂 source	               # Directory where unprocessed files arrive
+├── 📂 test_data               # Directory where pytest will generate test data
+├── 📂 test                    # Pytest code implemented
+├── 📂 reports                 # Stores generated reports
+├── 📜 main.py      	       # Main script handling file processing
+├── 📜 README.md               # Project Documentation
+├── 📜 requirements.txt        # Python modules required
+```
 
-Runs every 2 minutes via cron job (Linux) or Windows Task Scheduler.
-Uses SMTP/Gmail integration for email reporting.
-Can be executed manually with command-line arguments.
-Configurable settings via YAML/JSON.
-Future Enhancements
+## Workflow
+1. **File Arrival**: A new file is placed in `source_dir`.
+2. **Hash Check**: The script checks if the file is already processed using a hash stored in SQLite.
+3. **Compression**: If the file is new, it is compressed using GZIP and moved to `destination_dir`.
+4. **Logging**: The process details are logged.
+5. **Reports Generation**: A summary report is created.
+6. **Email Notification**: A report of processed files is emailed.
 
-Support for additional compression formats (ZIP, TAR, etc.).
-Implement a REST API to trigger jobs remotely.
-Add cloud storage integration (AWS S3, Google Drive, etc.) for remote backups.
+## Email Notification Example
+```
+
+```
+
+## Setup & Usage
+### 1. Clone the repository
+```bash
+git clone https://github.com/aniket-dataeng/PyArchive.git
+cd PyArchive
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure Environment Variables
+Set up email credentials for notifications:
+```bash
+export EMAIL_USER='your_email@gmail.com'
+export EMAIL_PASS='your_app_password'
+```
+
+### 4. Run the script
+```bash
+python main.py
+```
+
+## 5. Testing
+Run tests using:
+```bash
+pytest
+```
+
+## 📌 Future Enhancements
+- **S3 Integration**: Move compressed files to AWS S3.
+- **Multi-threading**: Improve performance for high file volume.
+- **Web Dashboard**: Visualize reports using a web interface.
+

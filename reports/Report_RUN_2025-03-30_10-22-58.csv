@@ -1,0 +1,5 @@
+Filename,Compressed Filename,Original Size (KB),Compressed Size (KB),Hex Digest
+two.txt,PyBak_20250330102258_two.txt.gz,0 Bytes,49 Bytes,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+one.txt,PyBak_20250330102258_one.txt.gz,57 Bytes,104 Bytes,7099a7e5329b610b3288e9026e11653100850449104c478de51afe9b8030a645
+20mb-examplefile-com.txt,PyBak_20250330102259_20mb-examplefile-com.txt.gz,21.0 MB,61.1 kB,aef67a77fd141862c32114c93082f42c89f4171c1063187ebe3cb0777aa8a6e8
+50mb.txt,PyBak_20250330102259_50mb.txt.gz,51.7 MB,125.5 kB,a5d40054c3320e2e7650ab60b32dce40b8ae22fe3a8353b444aca83265d9096e
