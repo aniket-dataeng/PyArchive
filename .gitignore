@@ -15,3 +15,7 @@ config/config.yaml
 
 # Ignore test data
 test_data/
+
+# Ignore checkpoints
+.ipynb_checkpoints/
+scripts/.ipynb_checkpoints/
