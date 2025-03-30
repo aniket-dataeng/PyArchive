@@ -1,13 +1,13 @@
 
-2025-03-30 10:22:58,362 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
-2025-03-30 10:22:58,849 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
-2025-03-30 10:22:59,048 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 10:22:58,362 - INFO - Processing: ~/Projects/PyBak/source/two.txt
+2025-03-30 10:22:58,849 - INFO - Processing: ~/Projects/PyBak/source/one.txt
+2025-03-30 10:22:59,048 - INFO - Processing: ~/Projects/PyBak/source/three.txt
 2025-03-30 10:22:59,049 - INFO - Duplicate file so skipping archieval
-2025-03-30 10:22:59,144 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
-2025-03-30 10:22:59,824 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 10:22:59,144 - INFO - Processing: ~/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 10:22:59,824 - INFO - Processing: ~/Projects/PyBak/source/50mb.txt
 2025-03-30 10:23:00,507 - INFO - Compression completed.
 2025-03-30 10:23:00,507 - INFO - Generating Report
-2025-03-30 10:23:00,508 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_10-22-58.csv
-2025-03-30 10:23:00,509 - INFO - aniket.dusey1@gmail.com
-2025-03-30 10:23:00,509 - INFO - Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_10-22-58.csv
+2025-03-30 10:23:00,508 - INFO - Report generated ~/Projects/PyBak/reports/Report_RUN_2025-03-30_10-22-58.csv
+2025-03-30 10:23:00,509 - INFO - xxxx.yyyyy@gmail.com
+2025-03-30 10:23:00,509 - INFO - Attached file: ~/Projects/PyBak/reports/Report_RUN_2025-03-30_10-22-58.csv
 2025-03-30 10:23:05,537 - INFO - Email sent successfully!
