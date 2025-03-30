@@ -36,17 +36,17 @@ This project automates file compression, archival, logging, and reporting. It en
 ```
 
 ## Workflow
-1. **File Arrival**: A new file is placed in `source_dir`.
+1. **File Arrival**: A new file is placed in `source`.
 2. **Hash Check**: The script checks if the file is already processed using a hash stored in SQLite.
-3. **Compression**: If the file is new, it is compressed using GZIP and moved to `destination_dir`.
+3. **Compression**: If the file is new, it is compressed using GZIP and moved to `destination`.
 4. **Logging**: The process details are logged.
 5. **Reports Generation**: A summary report is created.
 6. **Email Notification**: A report of processed files is emailed.
 
 ## Email Notification Example
 ```
-[![Email Notification](assets/EmailNotif.png)](https://github.com/aniket-dataeng/PyArchive/blob/main/assets/EmailNotif.png?raw=true)
-![Compression Report](assets/CompressionReport.png)
+assets/EmailNotif.png
+assets/CompressionReport.png
 
 ```
 
