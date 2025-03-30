@@ -80,7 +80,7 @@ Run tests using:
 pytest
 ```
 
-## 📌 Future Enhancements
+## Future Enhancements
 - **S3 Integration**: Move compressed files to AWS S3.
 - **Multi-threading**: Improve performance for high file volume.
 - **Web Dashboard**: Visualize reports using a web interface.
