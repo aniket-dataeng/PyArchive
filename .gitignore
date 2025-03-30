@@ -1,5 +1,5 @@
 # Ignore logs and reports
-logs/
+log/
 reports/
 
 # Ignore compiled Python files
@@ -13,3 +13,5 @@ venv/
 config/config.json
 config/config.yaml
 
+# Ignore test data
+test_data/

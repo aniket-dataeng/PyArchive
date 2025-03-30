@@ -295,3 +295,212 @@
 2025-03-28 11:43:34,738 - INFO - Compression completed.
 2025-03-28 11:43:34,738 - INFO - Generating Report
 2025-03-28 11:43:34,738 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-28_11-43-34.csv
+2025-03-30 09:31:19,187 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:31:19,224 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:31:19,305 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:31:19,305 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:31:19,306 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:31:19,306 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:31:19,985 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:31:19,985 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:31:20,944 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:31:20,944 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:31:20,944 - INFO - Compression completed.
+2025-03-30 09:31:20,944 - INFO - Generating Report
+2025-03-30 09:31:20,945 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-31-19.csv
+2025-03-30 09:31:20,945 - ERROR - ❌ Failed to attach file: name 'MIMEBase' is not defined
+2025-03-30 09:31:24,021 - INFO - ❌ Failed to send email: {}
+2025-03-30 09:33:22,620 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:33:22,620 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:33:22,620 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:33:22,620 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:33:22,620 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:33:22,621 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:33:22,712 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:33:22,712 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:33:22,937 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:33:22,937 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:33:22,937 - INFO - Compression completed.
+2025-03-30 09:33:22,937 - INFO - Generating Report
+2025-03-30 09:33:22,937 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-33-22.csv
+2025-03-30 09:33:22,938 - ERROR - ❌ Failed to attach file: name 'encoders' is not defined
+2025-03-30 09:33:28,361 - INFO - ❌ Failed to send email: {}
+2025-03-30 09:34:11,288 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:34:11,289 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:34:11,289 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:34:11,289 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:34:11,289 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:34:11,289 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:34:11,381 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:34:11,381 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:34:11,605 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:34:11,605 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:34:11,605 - INFO - Compression completed.
+2025-03-30 09:34:11,606 - INFO - Generating Report
+2025-03-30 09:34:11,606 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-34-11.csv
+2025-03-30 09:34:11,606 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-34-11.csv
+2025-03-30 09:34:17,576 - INFO - ❌ Failed to send email: {}
+2025-03-30 09:35:09,002 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:35:09,003 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:35:09,003 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:35:09,003 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:35:09,003 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:35:09,003 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:35:09,094 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:35:09,095 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:35:09,320 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:35:09,321 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:35:09,321 - INFO - Compression completed.
+2025-03-30 09:35:09,321 - INFO - Generating Report
+2025-03-30 09:35:09,321 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-35-09.csv
+2025-03-30 09:35:09,321 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-35-09.csv
+2025-03-30 09:35:15,122 - INFO - ❌ Failed to send email: {}
+2025-03-30 09:36:11,534 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:36:11,534 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:11,534 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:36:11,534 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:11,534 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:36:11,534 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:11,627 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:36:11,627 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:11,854 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:36:11,854 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:11,854 - INFO - Compression completed.
+2025-03-30 09:36:11,854 - INFO - Generating Report
+2025-03-30 09:36:11,854 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-36-11.csv
+2025-03-30 09:36:11,855 - ERROR - Error while generating report - FH: name 'sender_email' is not defined
+2025-03-30 09:36:22,011 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:36:22,011 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:22,011 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:36:22,012 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:22,012 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:36:22,012 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:22,106 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:36:22,106 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:22,335 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:36:22,335 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:36:22,335 - INFO - Compression completed.
+2025-03-30 09:36:22,335 - INFO - Generating Report
+2025-03-30 09:36:22,336 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-36-22.csv
+2025-03-30 09:36:22,336 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:36:22,336 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-36-22.csv
+2025-03-30 09:36:24,957 - INFO - ❌ Failed to send email: {}
+2025-03-30 09:38:06,926 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:38:06,926 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:38:06,927 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:38:06,927 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:38:06,927 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:38:06,927 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:38:07,019 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:38:07,019 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:38:07,246 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:38:07,246 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:38:07,246 - INFO - Compression completed.
+2025-03-30 09:38:07,246 - INFO - Generating Report
+2025-03-30 09:38:07,246 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-38-06.csv
+2025-03-30 09:38:07,246 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:38:07,246 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-38-06.csv
+2025-03-30 09:38:09,711 - INFO - ❌ Failed to send email: {}
+2025-03-30 09:39:11,879 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:39:11,879 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:39:11,880 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:39:11,880 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:39:11,880 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:39:11,880 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:39:11,972 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:39:11,973 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:39:12,141 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:39:12,141 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:39:12,141 - INFO - Compression completed.
+2025-03-30 09:39:12,141 - INFO - Generating Report
+2025-03-30 09:39:12,141 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-39-11.csv
+2025-03-30 09:39:12,141 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:39:12,141 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-39-11.csv
+2025-03-30 09:42:13,372 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:42:13,372 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:42:13,372 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:42:13,372 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:42:13,372 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:42:13,372 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:42:13,464 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:42:13,464 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:42:13,688 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:42:13,689 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:42:13,689 - INFO - Compression completed.
+2025-03-30 09:42:13,689 - INFO - Generating Report
+2025-03-30 09:42:13,689 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-42-13.csv
+2025-03-30 09:42:13,689 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:42:13,689 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-42-13.csv
+2025-03-30 09:43:56,745 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:43:56,745 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:43:56,745 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:43:56,745 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:43:56,745 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:43:56,746 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:43:56,839 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:43:56,839 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:43:57,065 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:43:57,065 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:43:57,065 - INFO - Compression completed.
+2025-03-30 09:43:57,065 - INFO - Generating Report
+2025-03-30 09:43:57,065 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-43-56.csv
+2025-03-30 09:43:57,066 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:44:41,809 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:44:41,809 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:44:41,809 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:44:41,809 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:44:41,809 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:44:41,809 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:44:41,901 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:44:41,901 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:44:42,126 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:44:42,127 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:44:42,127 - INFO - Compression completed.
+2025-03-30 09:44:42,127 - INFO - Generating Report
+2025-03-30 09:44:42,127 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-44-41.csv
+2025-03-30 09:44:42,127 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:45:36,510 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:45:36,510 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:45:36,510 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:45:36,511 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:45:36,511 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:45:36,511 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:45:36,602 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:45:36,602 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:45:36,827 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:45:36,827 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:45:36,827 - INFO - Compression completed.
+2025-03-30 09:45:36,827 - INFO - Generating Report
+2025-03-30 09:45:36,827 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-45-36.csv
+2025-03-30 09:45:36,828 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:47:41,161 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:47:41,161 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:47:41,161 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:47:41,161 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:47:41,161 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:47:41,162 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:47:41,254 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:47:41,254 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:47:41,478 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:47:41,479 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:47:41,479 - INFO - Compression completed.
+2025-03-30 09:47:41,479 - INFO - Generating Report
+2025-03-30 09:47:41,479 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-47-41.csv
+2025-03-30 09:47:41,479 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:47:45,915 - INFO - 📩 Email sent successfully!
+2025-03-30 09:48:25,610 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-03-30 09:48:25,611 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:48:25,611 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-03-30 09:48:25,611 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:48:25,611 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-03-30 09:48:25,611 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:48:25,702 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-03-30 09:48:25,703 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:48:25,927 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-03-30 09:48:25,927 - INFO - Duplicate file so skipping archieval
+2025-03-30 09:48:25,927 - INFO - Compression completed.
+2025-03-30 09:48:25,927 - INFO - Generating Report
+2025-03-30 09:48:25,927 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-48-25.csv
+2025-03-30 09:48:25,927 - INFO - aniket.dusey1@gmail.com
+2025-03-30 09:48:25,927 - INFO - 📎 Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-03-30_09-48-25.csv
+2025-03-30 09:48:30,561 - INFO - 📩 Email sent successfully!
