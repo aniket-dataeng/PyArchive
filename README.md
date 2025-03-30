@@ -1,6 +1,6 @@
 # PyArchive - Automated File Archival using Python
 
-## 📌 Overview
+## Overview
 This project automates file compression, archival, logging, and reporting. It ensures that duplicate files are not processed using a hash-based mechanism and integrates email notifications for status updates.
 
 ## Features
@@ -45,8 +45,8 @@ This project automates file compression, archival, logging, and reporting. It en
 
 ## Email Notification Example
 ```
-https://github.com/aniket-dataeng/PyArchive/blob/main/assets/EmailNotif.png
-![Email Notification](./assets/CompressionReport.png)
+![Email Notification](./assets/EmailNotif.png)
+![Compression Report](./assets/CompressionReport.png)
 
 ```
 
