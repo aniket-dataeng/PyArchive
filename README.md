@@ -45,7 +45,7 @@ This project automates file compression, archival, logging, and reporting. It en
 
 ## Email Notification Example
 ```
-([./assets/EmailNotif.png](https://github.com/aniket-dataeng/PyArchive/blob/main/assets/EmailNotif.png))
+https://github.com/aniket-dataeng/PyArchive/blob/main/assets/EmailNotif.png
 ![Email Notification](./assets/CompressionReport.png)
 
 ```
