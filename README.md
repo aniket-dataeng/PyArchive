@@ -45,8 +45,8 @@ This project automates file compression, archival, logging, and reporting. It en
 
 ## Email Notification Example
 ```
-![Email Notification](./assets/EmailNotif.png)
-![Compression Report](./assets/CompressionReport.png)
+![Email Notification](assets/EmailNotif.png)
+![Compression Report](assets/CompressionReport.png)
 
 ```
 
