@@ -1,7 +1,7 @@
 # PyArchive - Automated File Archival using Python
 
 ## Overview
-This project automates file compression, archival, logging, and reporting. It ensures that duplicate files are not processed using a hash-based mechanism and integrates email notifications for status updates.
+This project automates file compression, archival to S3, logging, and reporting. It ensures that duplicate files are not processed using a hash-based mechanism and integrates email notifications for status updates.
 
 ## Concepts Used
 This project integrates multiple core concepts from Data Engineering, Python scripting, and automation, including:
@@ -24,7 +24,7 @@ This project integrates multiple core concepts from Data Engineering, Python scr
 - **Email Notifications**: Sends an email with an attached report after processing.
 - **Reports**: Generates reports summarizing processed files.
 - **Automated Testing**: Includes `pytest` for unit testing.
-- **S3 Integration (Added newly)**: Backup files to S3.
+- **S3 Integration (Added newly)**: Backup files to S3, you'll need to setup the AWS account (free-tier) and download the AWSCLI and configure the access keys.
 
 ## Tech Stack
 - **Python** (Core programming language)
@@ -99,7 +99,6 @@ pytest
 ```
 
 ## Future Enhancements
-- **S3 Integration**: Move compressed files to AWS S3.
 - **Multi-threading**: Improve performance for high file volume.
 - **Web Dashboard**: Visualize reports using a web interface.
 
