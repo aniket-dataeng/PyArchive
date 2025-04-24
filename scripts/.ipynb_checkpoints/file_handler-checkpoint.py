@@ -6,6 +6,7 @@ import hashlib
 import json
 import logging
 import csv
+import boto3
 from datetime import datetime
 from scripts.database import DatabaseHandler
 from scripts.email import EmailSender
@@ -39,6 +40,9 @@ class FileHandler:
 
     def compress_files(self):
         """Compress all files in the source directory and store them in the destination."""
+        s3 = boto3.client("s3")
+        s3_bucket = "pyarchive"
+        
         for file in os.listdir(self.src_dir):
             file_path = os.path.join(self.src_dir, file)
 
@@ -70,6 +74,10 @@ class FileHandler:
                 try:
                     with open(file_path, "rb") as f_in, gzip.open(compressed_path, "wb") as f_out:
                         shutil.copyfileobj(f_in, f_out, length=1024 * 1024)
+
+                    s3.upload_file(compressed_path, s3_bucket, compressed_filename)
+                    logging.info((f"File '{compressed_filename}' uploaded to '{s3_bucket}/{compressed_filename}'"))
+                    
                 except Exception as e:
                     logging.error(f"Error compressing the file: {e}")
                     raise

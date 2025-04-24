@@ -11,3 +11,845 @@
 2025-03-30 10:23:00,509 - INFO - xxxx.yyyyy@gmail.com
 2025-03-30 10:23:00,509 - INFO - Attached file: ~/Projects/PyBak/reports/Report_RUN_2025-03-30_10-22-58.csv
 2025-03-30 10:23:05,537 - INFO - Email sent successfully!
+2025-04-24 14:26:46,251 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:26:46,287 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:26:46,289 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:26:46,293 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:26:46,293 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:26:46,295 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:26:46,297 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:26:46,304 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:26:46,304 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:26:46,305 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:26:46,305 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:26:46,314 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:26:46,317 - DEBUG - Looking for credentials via: env
+2025-04-24 14:26:46,317 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:26:46,317 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:26:46,317 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:26:46,317 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:26:46,318 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:26:46,320 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:26:46,362 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:26:46,363 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x777bcfa19870>
+2025-04-24 14:26:46,383 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:26:46,396 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:26:46,412 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:26:46,419 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:26:46,422 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x777bce693520>
+2025-04-24 14:26:46,422 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x777bd0286170>
+2025-04-24 14:26:46,484 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x777bce6932e0>
+2025-04-24 14:26:46,485 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:26:46,485 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:26:46,485 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:26:46,485 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:26:46,485 - DEBUG - No configured endpoint found.
+2025-04-24 14:26:46,487 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:26:46,490 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:26:46,490 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:26:46,490 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:26:46,491 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:26:46,499 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:26:46,499 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:26:46,522 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-04-24 14:26:46,522 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:26:46,522 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-04-24 14:26:46,522 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:26:46,931 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-04-24 14:26:46,932 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:26:47,730 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-04-24 14:26:47,730 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:26:47,730 - INFO - Compression completed.
+2025-04-24 14:26:47,730 - INFO - Generating Report
+2025-04-24 14:26:47,756 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-04-24_14-26-46.csv
+2025-04-24 14:26:47,757 - INFO - None
+2025-04-24 14:26:47,757 - INFO - Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-04-24_14-26-46.csv
+2025-04-24 14:26:50,449 - INFO - Failed to send email: 'NoneType' object has no attribute 'encode'
+2025-04-24 14:27:34,346 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:27:34,348 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:27:34,349 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:27:34,351 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:27:34,351 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:27:34,351 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:27:34,352 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:27:34,355 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:27:34,355 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:27:34,356 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:27:34,356 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:27:34,360 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:27:34,362 - DEBUG - Looking for credentials via: env
+2025-04-24 14:27:34,362 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:27:34,362 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:27:34,362 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:27:34,362 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:27:34,362 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:27:34,364 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:27:34,406 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:27:34,406 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x79a98bdf9750>
+2025-04-24 14:27:34,426 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:27:34,439 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:27:34,454 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:27:34,461 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:27:34,464 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x79a98a8935b0>
+2025-04-24 14:27:34,464 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x79a98c486170>
+2025-04-24 14:27:34,526 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x79a98a893370>
+2025-04-24 14:27:34,527 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:27:34,527 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:27:34,527 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:27:34,527 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:27:34,527 - DEBUG - No configured endpoint found.
+2025-04-24 14:27:34,528 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:27:34,531 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:27:34,532 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:27:34,532 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:27:34,532 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:27:34,533 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:27:34,533 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:27:34,534 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000.csv
+2025-04-24 14:27:34,655 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-04-24 14:27:34,655 - DEBUG - Using default client. pid: 6042, thread: 133769131073536
+2025-04-24 14:27:34,655 - DEBUG - Acquiring 0
+2025-04-24 14:27:34,656 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x79a989a09a50>}) about to wait for the following futures []
+2025-04-24 14:27:34,656 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x79a989a09a50>}) done waiting for dependent futures
+2025-04-24 14:27:34,657 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x79a989a09a50>}) with kwargs {'client': <botocore.client.S3 object at 0x79a98a9177c0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x79a989a0a680>, 'osutil': <s3transfer.utils.OSUtils object at 0x79a989a0a650>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x79a989a0a410>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x79a989a09a50>}
+2025-04-24 14:27:34,657 - DEBUG - Exception raised.
+Traceback (most recent call last):
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/tasks.py", line 272, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/upload.py", line 596, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/upload.py", line 245, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/utils.py", line 262, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/lib/python3.10/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: 'PyBak_20250424142734_customers-1000.csv.gz'
+2025-04-24 14:27:34,674 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:27:34,675 - ERROR - Error compressing the file: [Errno 2] No such file or directory: 'PyBak_20250424142734_customers-1000.csv.gz'
+2025-04-24 14:29:12,553 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:29:12,556 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:29:12,556 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:29:12,558 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:29:12,558 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:29:12,559 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:29:12,560 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:29:12,563 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:29:12,563 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:29:12,563 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:29:12,563 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:29:12,567 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:29:12,569 - DEBUG - Looking for credentials via: env
+2025-04-24 14:29:12,569 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:29:12,569 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:29:12,569 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:29:12,569 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:29:12,570 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:29:12,571 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:29:12,614 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:29:12,614 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7aad1d219870>
+2025-04-24 14:29:12,635 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:29:12,647 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:29:12,662 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:29:12,669 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:29:12,672 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7aad1bea3520>
+2025-04-24 14:29:12,672 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7aad1da86170>
+2025-04-24 14:29:12,735 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7aad1bea32e0>
+2025-04-24 14:29:12,736 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:29:12,736 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:29:12,736 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:29:12,736 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:29:12,736 - DEBUG - No configured endpoint found.
+2025-04-24 14:29:12,737 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:29:12,740 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:29:12,741 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:29:12,741 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:29:12,742 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:29:12,742 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:29:12,742 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:29:12,743 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000_1.csv
+2025-04-24 14:29:12,758 - ERROR - Error compressing the file: unsupported operand type(s) for /: 'str' and 'str'
+2025-04-24 14:29:34,735 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:29:34,738 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:29:34,739 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:29:34,740 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:29:34,740 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:29:34,741 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:29:34,742 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:29:34,745 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:29:34,745 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:29:34,745 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:29:34,745 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:29:34,750 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:29:34,751 - DEBUG - Looking for credentials via: env
+2025-04-24 14:29:34,751 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:29:34,751 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:29:34,752 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:29:34,752 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:29:34,752 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:29:34,754 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:29:34,797 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:29:34,797 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7810f9c19870>
+2025-04-24 14:29:34,818 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:29:34,830 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:29:34,845 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:29:34,852 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:29:34,855 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7810f88a3520>
+2025-04-24 14:29:34,855 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7810fa486170>
+2025-04-24 14:29:34,918 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7810f88a32e0>
+2025-04-24 14:29:34,918 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:29:34,919 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:29:34,919 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:29:34,919 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:29:34,919 - DEBUG - No configured endpoint found.
+2025-04-24 14:29:34,920 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:29:34,923 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:29:34,924 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:29:34,924 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:29:34,924 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:29:34,925 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:29:34,925 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:29:34,926 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000_1.csv
+2025-04-24 14:29:34,942 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-04-24 14:29:34,942 - DEBUG - Using default client. pid: 6076, thread: 132014334636032
+2025-04-24 14:29:34,943 - DEBUG - Acquiring 0
+2025-04-24 14:29:34,943 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7810f781bd00>}) about to wait for the following futures []
+2025-04-24 14:29:34,943 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7810f781bd00>}) done waiting for dependent futures
+2025-04-24 14:29:34,943 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7810f781bd00>}) with kwargs {'client': <botocore.client.S3 object at 0x7810f8927820>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7810f7819990>, 'osutil': <s3transfer.utils.OSUtils object at 0x7810f78199c0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7810f7819c00>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7810f781bd00>}
+2025-04-24 14:29:34,943 - DEBUG - Exception raised.
+Traceback (most recent call last):
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/tasks.py", line 272, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/upload.py", line 596, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/upload.py", line 245, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/utils.py", line 262, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/lib/python3.10/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: 'PyBak_20250424142934_customers-1000_1.csv.gz'
+2025-04-24 14:29:34,944 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:29:34,945 - ERROR - Error compressing the file: [Errno 2] No such file or directory: 'PyBak_20250424142934_customers-1000_1.csv.gz'
+2025-04-24 14:30:18,513 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:30:18,516 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:30:18,517 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:30:18,518 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:30:18,519 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:30:18,519 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:30:18,520 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:30:18,523 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:30:18,523 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:30:18,523 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:30:18,524 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:30:18,528 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:30:18,529 - DEBUG - Looking for credentials via: env
+2025-04-24 14:30:18,530 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:30:18,530 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:30:18,530 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:30:18,530 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:30:18,530 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:30:18,532 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:30:18,573 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:30:18,574 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x75ea1ae19870>
+2025-04-24 14:30:18,594 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:30:18,607 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:30:18,622 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:30:18,629 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:30:18,632 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x75ea19a93520>
+2025-04-24 14:30:18,632 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x75ea1b686170>
+2025-04-24 14:30:18,695 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x75ea19a932e0>
+2025-04-24 14:30:18,695 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:30:18,696 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:30:18,696 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:30:18,696 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:30:18,696 - DEBUG - No configured endpoint found.
+2025-04-24 14:30:18,697 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:30:18,700 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:30:18,701 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:30:18,701 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:30:18,701 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:30:18,702 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:30:18,702 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:30:18,702 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-04-24 14:30:18,702 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:30:18,703 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-04-24 14:30:18,703 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:30:18,796 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-04-24 14:30:18,797 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:30:19,028 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-04-24 14:30:19,028 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:30:19,029 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000_2.csv
+2025-04-24 14:30:19,044 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-04-24 14:30:19,044 - DEBUG - Using default client. pid: 6102, thread: 129648363966464
+2025-04-24 14:30:19,044 - DEBUG - Acquiring 0
+2025-04-24 14:30:19,045 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x75ea18c09b70>}) about to wait for the following futures []
+2025-04-24 14:30:19,045 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x75ea18c09b70>}) done waiting for dependent futures
+2025-04-24 14:30:19,045 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x75ea18c09b70>}) with kwargs {'client': <botocore.client.S3 object at 0x75ea19b1ba00>, 'config': <boto3.s3.transfer.TransferConfig object at 0x75ea18a6e860>, 'osutil': <s3transfer.utils.OSUtils object at 0x75ea18a6e890>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x75ea18c0a530>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x75ea18c09b70>}
+2025-04-24 14:30:19,045 - DEBUG - Exception raised.
+Traceback (most recent call last):
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/tasks.py", line 272, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/upload.py", line 596, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/upload.py", line 245, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/aniket/.local/lib/python3.10/site-packages/s3transfer/utils.py", line 262, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/lib/python3.10/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: 'PyBak_20250424143019_customers-1000_2.csv.gz'
+2025-04-24 14:30:19,046 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:30:19,046 - ERROR - Error compressing the file: [Errno 2] No such file or directory: 'PyBak_20250424143019_customers-1000_2.csv.gz'
+2025-04-24 14:31:31,437 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:31:31,440 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:31:31,441 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:31:31,442 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:31:31,442 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:31:31,443 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:31:31,444 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:31:31,447 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:31:31,447 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:31:31,447 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:31:31,447 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:31:31,451 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:31:31,453 - DEBUG - Looking for credentials via: env
+2025-04-24 14:31:31,453 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:31:31,453 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:31:31,453 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:31:31,453 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:31:31,454 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:31:31,456 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:31:31,498 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:31:31,498 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x782653219870>
+2025-04-24 14:31:31,519 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:31:31,531 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:31:31,546 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:31:31,553 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:31:31,556 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x782651e93520>
+2025-04-24 14:31:31,556 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x782653a86170>
+2025-04-24 14:31:31,620 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x782651e932e0>
+2025-04-24 14:31:31,620 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:31:31,620 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:31:31,620 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:31:31,621 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:31:31,621 - DEBUG - No configured endpoint found.
+2025-04-24 14:31:31,622 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:31:31,625 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:31:31,626 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:31:31,626 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:31:31,626 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:31:31,627 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:31:31,627 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:31:31,627 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-04-24 14:31:31,627 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:31:31,627 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-04-24 14:31:31,627 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:31:31,721 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-04-24 14:31:31,721 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:31:31,948 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-04-24 14:31:31,949 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:31:31,949 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000_2.csv
+2025-04-24 14:31:31,966 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-04-24 14:31:31,966 - DEBUG - Using default client. pid: 6132, thread: 132106028908544
+2025-04-24 14:31:31,966 - DEBUG - Acquiring 0
+2025-04-24 14:31:31,967 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x782651009b70>}) about to wait for the following futures []
+2025-04-24 14:31:31,967 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x782651009b70>}) done waiting for dependent futures
+2025-04-24 14:31:31,967 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x782651009b70>}) with kwargs {'client': <botocore.client.S3 object at 0x782651f1ba00>, 'config': <boto3.s3.transfer.TransferConfig object at 0x782650e6e860>, 'osutil': <s3transfer.utils.OSUtils object at 0x782650e6e890>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x78265100a530>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x782651009b70>}
+2025-04-24 14:31:31,967 - DEBUG - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'Uploads', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) to executor <s3transfer.futures.BoundedExecutor object at 0x78265100a530> for transfer request: 0.
+2025-04-24 14:31:31,967 - DEBUG - Acquiring 0
+2025-04-24 14:31:31,968 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'Uploads', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) about to wait for the following futures []
+2025-04-24 14:31:31,968 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'Uploads', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) done waiting for dependent futures
+2025-04-24 14:31:31,968 - DEBUG - Executing task PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'Uploads', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) with kwargs {'client': <botocore.client.S3 object at 0x782651f1ba00>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x78265100b280>, 'bucket': 'pyarchive', 'key': 'Uploads', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x782651d1ea70>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x782651d1dea0>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x782651d1f370>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x782651d1de10>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x782651d1fd00>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x782650e6e6b0>>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x782651de75e0>>
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x782651d1dc60>
+2025-04-24 14:31:31,969 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:31:31,969 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function _handle_request_validation_mode_member at 0x782651d38430>
+2025-04-24 14:31:31,969 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x782651d1feb0>
+2025-04-24 14:31:31,970 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x782650e6e6b0>>
+2025-04-24 14:31:31,970 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pyarchive', 'Region': 'ap-south-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'Uploads', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-04-24 14:31:31,971 - DEBUG - Endpoint provider result: https://pyarchive.s3.ap-south-1.amazonaws.com
+2025-04-24 14:31:31,971 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-04-24 14:31:31,971 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-04-24 14:31:31,972 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x782651d1e170>
+2025-04-24 14:31:31,972 - DEBUG - Adding expect 100 continue header to request.
+2025-04-24 14:31:31,972 - DEBUG - Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x782650e6e710>>
+2025-04-24 14:31:31,972 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x782651d1d870>
+2025-04-24 14:31:31,972 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_query_compatibility_header at 0x782651d383a0>
+2025-04-24 14:31:31,972 - DEBUG - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x782651d1f490>
+2025-04-24 14:31:31,972 - DEBUG - Making request for OperationModel(name=PutObject) with params: {'url_path': '/Uploads', 'query_string': {}, 'method': 'PUT', 'headers': {'x-amz-sdk-checksum-algorithm': 'CRC32', 'User-Agent': 'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': '100-continue', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'aws-chunked', 'X-Amz-Trailer': 'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': '83345'}, 'body': <botocore.httpchecksum.AwsChunkedWrapper object at 0x7826510099c0>, 'auth_path': '/pyarchive/Uploads', 'url': 'https://pyarchive.s3.ap-south-1.amazonaws.com/Uploads', 'context': {'client_region': 'ap-south-1', 'client_config': <botocore.config.Config object at 0x782651f1bb50>, 'has_streaming_input': True, 'auth_type': 'v4', 'unsigned_payload': None, 's3_redirect': {'redirected': False, 'bucket': 'pyarchive', 'params': {'Bucket': 'pyarchive', 'Key': 'Uploads', 'Body': <s3transfer.utils.ReadFileChunk object at 0x78265100b280>, 'ChecksumAlgorithm': 'CRC32'}}, 'input_params': {'Bucket': 'pyarchive', 'Key': 'Uploads'}, 'signing': {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'ap-south-1'}]}, 'checksum': {'request_algorithm': {'algorithm': 'crc32', 'in': 'trailer', 'name': 'x-amz-checksum-crc32'}}}}
+2025-04-24 14:31:31,973 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x782650e6b9a0>
+2025-04-24 14:31:31,973 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x782651f1b610>>
+2025-04-24 14:31:31,973 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x782651d1dab0>
+2025-04-24 14:31:31,973 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x782651d1fe20>
+2025-04-24 14:31:31,973 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x782651d384c0>
+2025-04-24 14:31:31,973 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x782650e6e710>>
+2025-04-24 14:31:31,974 - DEBUG - Calculating signature using v4 auth.
+2025-04-24 14:31:31,974 - DEBUG - CanonicalRequest:
+PUT
+/Uploads
+
+content-encoding:aws-chunked
+host:pyarchive.s3.ap-south-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20250424T090131Z
+x-amz-decoded-content-length:83345
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2025-04-24 14:31:31,974 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250424T090131Z
+20250424/ap-south-1/s3/aws4_request
+af96df45646073f70a94bb9838605c744571c4c2d0284bab4b6aa153b6b76361
+2025-04-24 14:31:31,974 - DEBUG - Signature:
+02261c94b0df5f1442458ec9f0d2b79637a3982a00ba7732ffc9e121a5eaef06
+2025-04-24 14:31:31,974 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x782650e6e0b0>>
+2025-04-24 14:31:31,974 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x782650e6ba30>
+2025-04-24 14:31:31,974 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x782651d1fc70>
+2025-04-24 14:31:31,974 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pyarchive.s3.ap-south-1.amazonaws.com/Uploads, headers={'x-amz-sdk-checksum-algorithm': b'CRC32', 'User-Agent': b'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'83345', 'X-Amz-Date': b'20250424T090131Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIASA55N2L7CMFGJQU3/20250424/ap-south-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=02261c94b0df5f1442458ec9f0d2b79637a3982a00ba7732ffc9e121a5eaef06', 'amz-sdk-invocation-id': b'56cdbd57-44f9-4de7-a37a-8961535aa0ce', 'amz-sdk-request': b'attempt=1'}>
+2025-04-24 14:31:31,978 - DEBUG - Certificate path: /home/aniket/.local/lib/python3.10/site-packages/certifi/cacert.pem
+2025-04-24 14:31:31,978 - DEBUG - Starting new HTTPS connection (1): pyarchive.s3.ap-south-1.amazonaws.com:443
+2025-04-24 14:31:32,176 - DEBUG - https://pyarchive.s3.ap-south-1.amazonaws.com:443 "PUT /Uploads HTTP/1.1" 301 None
+2025-04-24 14:31:32,178 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x782651d381f0>
+2025-04-24 14:31:32,178 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x782651d38040>
+2025-04-24 14:31:32,178 - DEBUG - Response headers: {'x-amz-bucket-region': 'us-east-1', 'x-amz-request-id': 'G5245DPC5WBV821R', 'x-amz-id-2': 'POpHsbq/x1GiGS2c8bkOw5mA1D1nRwdInPKULpIqsFyUcufIcgWV5JO9Zztxn/LNycrQsYwAL4WtSYt4PdGVfo1XAIy3Dhaf', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 24 Apr 2025 09:01:31 GMT', 'Connection': 'close', 'Server': 'AmazonS3'}
+2025-04-24 14:31:32,178 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>PermanentRedirect</Code><Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message><Endpoint>s3.amazonaws.com</Endpoint><Bucket>pyarchive</Bucket><RequestId>G5245DPC5WBV821R</RequestId><HostId>POpHsbq/x1GiGS2c8bkOw5mA1D1nRwdInPKULpIqsFyUcufIcgWV5JO9Zztxn/LNycrQsYwAL4WtSYt4PdGVfo1XAIy3Dhaf</HostId></Error>'
+2025-04-24 14:31:32,185 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x782651d38310>
+2025-04-24 14:31:32,185 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x782650e6e5f0>
+2025-04-24 14:31:32,185 - DEBUG - No retry needed.
+2025-04-24 14:31:32,185 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x782650e6e6b0>>
+2025-04-24 14:31:32,185 - DEBUG - S3 client configured for region ap-south-1 but the bucket pyarchive is in region us-east-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2025-04-24 14:31:32,185 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x782651d1feb0>
+2025-04-24 14:31:32,186 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x782650e6e6b0>>
+2025-04-24 14:31:32,186 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pyarchive', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'Uploads', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-04-24 14:31:32,187 - DEBUG - Endpoint provider result: https://pyarchive.s3.us-east-1.amazonaws.com
+2025-04-24 14:31:32,187 - DEBUG - Updating URI from https://pyarchive.s3.ap-south-1.amazonaws.com/Uploads to https://pyarchive.s3.us-east-1.amazonaws.com/Uploads
+2025-04-24 14:31:32,188 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-04-24 14:31:32,188 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-04-24 14:31:32,188 - DEBUG - Response received to retry, sleeping for 0 seconds
+2025-04-24 14:31:32,193 - DEBUG - Rewinding stream: <botocore.httpchecksum.AwsChunkedWrapper object at 0x7826510099c0>
+2025-04-24 14:31:32,193 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x782650e6b9a0>
+2025-04-24 14:31:32,193 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x782651f1b610>>
+2025-04-24 14:31:32,193 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x782651d1dab0>
+2025-04-24 14:31:32,193 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x782651d1fe20>
+2025-04-24 14:31:32,194 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x782651d384c0>
+2025-04-24 14:31:32,194 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x782650e6e710>>
+2025-04-24 14:31:32,194 - DEBUG - Calculating signature using v4 auth.
+2025-04-24 14:31:32,194 - DEBUG - CanonicalRequest:
+PUT
+/Uploads
+
+content-encoding:aws-chunked
+host:pyarchive.s3.us-east-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20250424T090132Z
+x-amz-decoded-content-length:83345
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2025-04-24 14:31:32,195 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250424T090132Z
+20250424/us-east-1/s3/aws4_request
+859d149d5adeddd37d9558f503630a9438afd5a8b4faf1e154caf4a35c78bc1f
+2025-04-24 14:31:32,195 - DEBUG - Signature:
+a67007ecd80f45643e65beaa5e607f5cc157aefc98f1259df4bac7df43dcf747
+2025-04-24 14:31:32,195 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x782650e6e0b0>>
+2025-04-24 14:31:32,195 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x782650e6ba30>
+2025-04-24 14:31:32,196 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x782651d1fc70>
+2025-04-24 14:31:32,196 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pyarchive.s3.us-east-1.amazonaws.com/Uploads, headers={'x-amz-sdk-checksum-algorithm': b'CRC32', 'User-Agent': b'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'83345', 'X-Amz-Date': b'20250424T090132Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIASA55N2L7CMFGJQU3/20250424/us-east-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=a67007ecd80f45643e65beaa5e607f5cc157aefc98f1259df4bac7df43dcf747', 'amz-sdk-invocation-id': b'56cdbd57-44f9-4de7-a37a-8961535aa0ce', 'amz-sdk-request': b'ttl=20250424T090231Z; attempt=2; max=5'}>
+2025-04-24 14:31:32,197 - DEBUG - Certificate path: /home/aniket/.local/lib/python3.10/site-packages/certifi/cacert.pem
+2025-04-24 14:31:32,197 - DEBUG - Starting new HTTPS connection (1): pyarchive.s3.us-east-1.amazonaws.com:443
+2025-04-24 14:31:33,865 - DEBUG - https://pyarchive.s3.us-east-1.amazonaws.com:443 "PUT /Uploads HTTP/1.1" 200 0
+2025-04-24 14:31:33,865 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x782651d381f0>
+2025-04-24 14:31:33,866 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x782651d38040>
+2025-04-24 14:31:33,866 - DEBUG - Response headers: {'x-amz-id-2': 'Yh3wEkicYhT7lxNgN8GrcsDFIPEDFS4eHkzluGQZ8xp9VNKcp7cThVxndJpj/3XCcl7PNWavkhU=', 'x-amz-request-id': 'XRT3ZFFBC41NV7GA', 'Date': 'Thu, 24 Apr 2025 09:01:34 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"5b3c69d283775e54c7ec8f941975af38"', 'x-amz-checksum-crc32': 'POML3A==', 'x-amz-checksum-type': 'FULL_OBJECT', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2025-04-24 14:31:33,866 - DEBUG - Response body:
+b''
+2025-04-24 14:31:33,867 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x782651d38310>
+2025-04-24 14:31:33,867 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x782650e6e5f0>
+2025-04-24 14:31:33,867 - DEBUG - No retry needed.
+2025-04-24 14:31:33,867 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x782650e6e6b0>>
+2025-04-24 14:31:33,867 - DEBUG - S3 request was previously redirected, not redirecting.
+2025-04-24 14:31:33,868 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:31:33,869 - ERROR - Error compressing the file: name 'file_name' is not defined
+2025-04-24 14:34:14,275 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:34:14,277 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:34:14,278 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:34:14,280 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:34:14,280 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:34:14,281 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:34:14,281 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:34:14,284 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:34:14,285 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:34:14,285 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:34:14,285 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:34:14,289 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:34:14,291 - DEBUG - Looking for credentials via: env
+2025-04-24 14:34:14,291 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:34:14,291 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:34:14,291 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:34:14,291 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:34:14,292 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:34:14,293 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:34:14,336 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:34:14,336 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x6ffe48121870>
+2025-04-24 14:34:14,357 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:34:14,369 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:34:14,385 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:34:14,392 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:34:14,395 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x6ffe46da7520>
+2025-04-24 14:34:14,395 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x6ffe4898a170>
+2025-04-24 14:34:14,459 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x6ffe46da72e0>
+2025-04-24 14:34:14,459 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:34:14,460 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:34:14,460 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:34:14,460 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:34:14,460 - DEBUG - No configured endpoint found.
+2025-04-24 14:34:14,461 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:34:14,464 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:34:14,465 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:34:14,465 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:34:14,466 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:34:14,466 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:34:14,466 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:34:14,466 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-04-24 14:34:14,467 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:34:14,467 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000_3.csv
+2025-04-24 14:34:14,483 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-04-24 14:34:14,483 - DEBUG - Using default client. pid: 6264, thread: 123137950932992
+2025-04-24 14:34:14,483 - DEBUG - Acquiring 0
+2025-04-24 14:34:14,484 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x6ffe45c23df0>}) about to wait for the following futures []
+2025-04-24 14:34:14,484 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x6ffe45c23df0>}) done waiting for dependent futures
+2025-04-24 14:34:14,484 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x6ffe45c23df0>}) with kwargs {'client': <botocore.client.S3 object at 0x6ffe46e2ba00>, 'config': <boto3.s3.transfer.TransferConfig object at 0x6ffe45c7a860>, 'osutil': <s3transfer.utils.OSUtils object at 0x6ffe45c7a890>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x6ffe45c21ae0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x6ffe45c23df0>}
+2025-04-24 14:34:14,484 - DEBUG - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) to executor <s3transfer.futures.BoundedExecutor object at 0x6ffe45c21ae0> for transfer request: 0.
+2025-04-24 14:34:14,484 - DEBUG - Acquiring 0
+2025-04-24 14:34:14,485 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) about to wait for the following futures []
+2025-04-24 14:34:14,485 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) done waiting for dependent futures
+2025-04-24 14:34:14,485 - DEBUG - Executing task PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) with kwargs {'client': <botocore.client.S3 object at 0x6ffe46e2ba00>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x6ffe45c20d90>, 'bucket': 'pyarchive', 'key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x6ffe46c32a70>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x6ffe46c31ea0>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x6ffe46c33370>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x6ffe46c31e10>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x6ffe46c33d00>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x6ffe45c7a6b0>>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x6ffe46cfb5e0>>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x6ffe46c31c60>
+2025-04-24 14:34:14,486 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function _handle_request_validation_mode_member at 0x6ffe46c4c430>
+2025-04-24 14:34:14,486 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x6ffe46c33eb0>
+2025-04-24 14:34:14,486 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x6ffe45c7a6b0>>
+2025-04-24 14:34:14,487 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pyarchive', 'Region': 'ap-south-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-04-24 14:34:14,488 - DEBUG - Endpoint provider result: https://pyarchive.s3.ap-south-1.amazonaws.com
+2025-04-24 14:34:14,488 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-04-24 14:34:14,488 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-04-24 14:34:14,489 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x6ffe46c32170>
+2025-04-24 14:34:14,489 - DEBUG - Adding expect 100 continue header to request.
+2025-04-24 14:34:14,489 - DEBUG - Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x6ffe45c7a710>>
+2025-04-24 14:34:14,489 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x6ffe46c31870>
+2025-04-24 14:34:14,489 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_query_compatibility_header at 0x6ffe46c4c3a0>
+2025-04-24 14:34:14,489 - DEBUG - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x6ffe46c33490>
+2025-04-24 14:34:14,489 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:34:14,489 - DEBUG - Making request for OperationModel(name=PutObject) with params: {'url_path': '/PyBak_20250424143414_customers-1000_3.csv.gz', 'query_string': {}, 'method': 'PUT', 'headers': {'x-amz-sdk-checksum-algorithm': 'CRC32', 'User-Agent': 'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': '100-continue', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'aws-chunked', 'X-Amz-Trailer': 'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': '83345'}, 'body': <botocore.httpchecksum.AwsChunkedWrapper object at 0x6ffe45c22470>, 'auth_path': '/pyarchive/PyBak_20250424143414_customers-1000_3.csv.gz', 'url': 'https://pyarchive.s3.ap-south-1.amazonaws.com/PyBak_20250424143414_customers-1000_3.csv.gz', 'context': {'client_region': 'ap-south-1', 'client_config': <botocore.config.Config object at 0x6ffe46e2bb50>, 'has_streaming_input': True, 'auth_type': 'v4', 'unsigned_payload': None, 's3_redirect': {'redirected': False, 'bucket': 'pyarchive', 'params': {'Bucket': 'pyarchive', 'Key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'Body': <s3transfer.utils.ReadFileChunk object at 0x6ffe45c20d90>, 'ChecksumAlgorithm': 'CRC32'}}, 'input_params': {'Bucket': 'pyarchive', 'Key': 'PyBak_20250424143414_customers-1000_3.csv.gz'}, 'signing': {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'ap-south-1'}]}, 'checksum': {'request_algorithm': {'algorithm': 'crc32', 'in': 'trailer', 'name': 'x-amz-checksum-crc32'}}}}
+2025-04-24 14:34:14,490 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x6ffe45c779a0>
+2025-04-24 14:34:14,490 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x6ffe46e2b610>>
+2025-04-24 14:34:14,490 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x6ffe46c31ab0>
+2025-04-24 14:34:14,490 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x6ffe46c33e20>
+2025-04-24 14:34:14,490 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x6ffe46c4c4c0>
+2025-04-24 14:34:14,491 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x6ffe45c7a710>>
+2025-04-24 14:34:14,491 - DEBUG - Calculating signature using v4 auth.
+2025-04-24 14:34:14,491 - DEBUG - CanonicalRequest:
+PUT
+/PyBak_20250424143414_customers-1000_3.csv.gz
+
+content-encoding:aws-chunked
+host:pyarchive.s3.ap-south-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20250424T090414Z
+x-amz-decoded-content-length:83345
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2025-04-24 14:34:14,491 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250424T090414Z
+20250424/ap-south-1/s3/aws4_request
+6609421b6f99589d17a62bee49cf9844a8604cf4c23156652442147fe3c4ac45
+2025-04-24 14:34:14,491 - DEBUG - Signature:
+b22f73ebc0737532a39f677b6cf6e85e48d076626b310f5b2f1723f9cb85ab0b
+2025-04-24 14:34:14,491 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x6ffe45c7a0b0>>
+2025-04-24 14:34:14,491 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x6ffe45c77a30>
+2025-04-24 14:34:14,492 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x6ffe46c33c70>
+2025-04-24 14:34:14,492 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pyarchive.s3.ap-south-1.amazonaws.com/PyBak_20250424143414_customers-1000_3.csv.gz, headers={'x-amz-sdk-checksum-algorithm': b'CRC32', 'User-Agent': b'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'83345', 'X-Amz-Date': b'20250424T090414Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIASA55N2L7CMFGJQU3/20250424/ap-south-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=b22f73ebc0737532a39f677b6cf6e85e48d076626b310f5b2f1723f9cb85ab0b', 'amz-sdk-invocation-id': b'74c02edb-8505-4afc-8179-4675c783df60', 'amz-sdk-request': b'attempt=1'}>
+2025-04-24 14:34:14,495 - DEBUG - Certificate path: /home/aniket/.local/lib/python3.10/site-packages/certifi/cacert.pem
+2025-04-24 14:34:14,496 - DEBUG - Starting new HTTPS connection (1): pyarchive.s3.ap-south-1.amazonaws.com:443
+2025-04-24 14:34:14,677 - DEBUG - https://pyarchive.s3.ap-south-1.amazonaws.com:443 "PUT /PyBak_20250424143414_customers-1000_3.csv.gz HTTP/1.1" 301 None
+2025-04-24 14:34:14,679 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x6ffe46c4c1f0>
+2025-04-24 14:34:14,679 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x6ffe46c4c040>
+2025-04-24 14:34:14,679 - DEBUG - Response headers: {'x-amz-bucket-region': 'us-east-1', 'x-amz-request-id': 'KD2W9WXZAQRXMVFG', 'x-amz-id-2': 'LnasHhUVW3jKwERcZ4B+RBDIG9ArsrZOaSwOKdd7f+lAz7deBS8DZ1fXt0wYe/77XxgvvEtsri0=', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 24 Apr 2025 09:04:13 GMT', 'Connection': 'close', 'Server': 'AmazonS3'}
+2025-04-24 14:34:14,679 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>PermanentRedirect</Code><Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message><Endpoint>s3.amazonaws.com</Endpoint><Bucket>pyarchive</Bucket><RequestId>KD2W9WXZAQRXMVFG</RequestId><HostId>LnasHhUVW3jKwERcZ4B+RBDIG9ArsrZOaSwOKdd7f+lAz7deBS8DZ1fXt0wYe/77XxgvvEtsri0=</HostId></Error>'
+2025-04-24 14:34:14,687 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x6ffe46c4c310>
+2025-04-24 14:34:14,687 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x6ffe45c7a5f0>
+2025-04-24 14:34:14,687 - DEBUG - No retry needed.
+2025-04-24 14:34:14,687 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x6ffe45c7a6b0>>
+2025-04-24 14:34:14,687 - DEBUG - S3 client configured for region ap-south-1 but the bucket pyarchive is in region us-east-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2025-04-24 14:34:14,687 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x6ffe46c33eb0>
+2025-04-24 14:34:14,688 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x6ffe45c7a6b0>>
+2025-04-24 14:34:14,688 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pyarchive', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'PyBak_20250424143414_customers-1000_3.csv.gz', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-04-24 14:34:14,689 - DEBUG - Endpoint provider result: https://pyarchive.s3.us-east-1.amazonaws.com
+2025-04-24 14:34:14,690 - DEBUG - Updating URI from https://pyarchive.s3.ap-south-1.amazonaws.com/PyBak_20250424143414_customers-1000_3.csv.gz to https://pyarchive.s3.us-east-1.amazonaws.com/PyBak_20250424143414_customers-1000_3.csv.gz
+2025-04-24 14:34:14,690 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-04-24 14:34:14,690 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-04-24 14:34:14,690 - DEBUG - Response received to retry, sleeping for 0 seconds
+2025-04-24 14:34:14,696 - DEBUG - Rewinding stream: <botocore.httpchecksum.AwsChunkedWrapper object at 0x6ffe45c22470>
+2025-04-24 14:34:14,696 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x6ffe45c779a0>
+2025-04-24 14:34:14,696 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x6ffe46e2b610>>
+2025-04-24 14:34:14,696 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x6ffe46c31ab0>
+2025-04-24 14:34:14,697 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x6ffe46c33e20>
+2025-04-24 14:34:14,697 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x6ffe46c4c4c0>
+2025-04-24 14:34:14,697 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x6ffe45c7a710>>
+2025-04-24 14:34:14,698 - DEBUG - Calculating signature using v4 auth.
+2025-04-24 14:34:14,698 - DEBUG - CanonicalRequest:
+PUT
+/PyBak_20250424143414_customers-1000_3.csv.gz
+
+content-encoding:aws-chunked
+host:pyarchive.s3.us-east-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20250424T090414Z
+x-amz-decoded-content-length:83345
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2025-04-24 14:34:14,698 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250424T090414Z
+20250424/us-east-1/s3/aws4_request
+db971bbc630440f1d8a0c540fe41e1b4b7362951756ffbef328ea336d4c81b95
+2025-04-24 14:34:14,698 - DEBUG - Signature:
+a33f03b478c6183bb6272eedfcecbd669e8330cd4eef745cbec852eb46290be2
+2025-04-24 14:34:14,698 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x6ffe45c7a0b0>>
+2025-04-24 14:34:14,699 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x6ffe45c77a30>
+2025-04-24 14:34:14,699 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x6ffe46c33c70>
+2025-04-24 14:34:14,699 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pyarchive.s3.us-east-1.amazonaws.com/PyBak_20250424143414_customers-1000_3.csv.gz, headers={'x-amz-sdk-checksum-algorithm': b'CRC32', 'User-Agent': b'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'83345', 'X-Amz-Date': b'20250424T090414Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIASA55N2L7CMFGJQU3/20250424/us-east-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=a33f03b478c6183bb6272eedfcecbd669e8330cd4eef745cbec852eb46290be2', 'amz-sdk-invocation-id': b'74c02edb-8505-4afc-8179-4675c783df60', 'amz-sdk-request': b'ttl=20250424T090513Z; attempt=2; max=5'}>
+2025-04-24 14:34:14,700 - DEBUG - Certificate path: /home/aniket/.local/lib/python3.10/site-packages/certifi/cacert.pem
+2025-04-24 14:34:14,701 - DEBUG - Starting new HTTPS connection (1): pyarchive.s3.us-east-1.amazonaws.com:443
+2025-04-24 14:34:16,362 - DEBUG - https://pyarchive.s3.us-east-1.amazonaws.com:443 "PUT /PyBak_20250424143414_customers-1000_3.csv.gz HTTP/1.1" 200 0
+2025-04-24 14:34:16,363 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x6ffe46c4c1f0>
+2025-04-24 14:34:16,363 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x6ffe46c4c040>
+2025-04-24 14:34:16,363 - DEBUG - Response headers: {'x-amz-id-2': 'ej6vFQpMnpDjoiPl0H3Nj0hpZ3NIdMnLE7WUizaSgBBp/w4MwYEb89qIgJ0XbHiZ7Ppi6DC5QwkO0sXCoxcKNnjexOOXf8q2rDXr7VVay3Y=', 'x-amz-request-id': 'W302TJ2E61ZDE8MZ', 'Date': 'Thu, 24 Apr 2025 09:04:16 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"14c34bc47f2b1b5fa4aff0742cd1e56a"', 'x-amz-checksum-crc32': 'mTG5lw==', 'x-amz-checksum-type': 'FULL_OBJECT', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2025-04-24 14:34:16,363 - DEBUG - Response body:
+b''
+2025-04-24 14:34:16,364 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x6ffe46c4c310>
+2025-04-24 14:34:16,364 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x6ffe45c7a5f0>
+2025-04-24 14:34:16,364 - DEBUG - No retry needed.
+2025-04-24 14:34:16,364 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x6ffe45c7a6b0>>
+2025-04-24 14:34:16,364 - DEBUG - S3 request was previously redirected, not redirecting.
+2025-04-24 14:34:16,365 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:34:16,366 - ERROR - Error compressing the file: name 'pyarchive' is not defined
+2025-04-24 14:35:24,728 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-04-24 14:35:24,731 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-04-24 14:35:24,732 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-04-24 14:35:24,733 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-04-24 14:35:24,733 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-04-24 14:35:24,734 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-04-24 14:35:24,735 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-04-24 14:35:24,738 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-04-24 14:35:24,738 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-04-24 14:35:24,738 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-04-24 14:35:24,738 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-04-24 14:35:24,742 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-04-24 14:35:24,744 - DEBUG - Looking for credentials via: env
+2025-04-24 14:35:24,744 - DEBUG - Looking for credentials via: assume-role
+2025-04-24 14:35:24,744 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-04-24 14:35:24,744 - DEBUG - Looking for credentials via: sso
+2025-04-24 14:35:24,744 - DEBUG - Looking for credentials via: shared-credentials-file
+2025-04-24 14:35:24,745 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-04-24 14:35:24,747 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/endpoints.json
+2025-04-24 14:35:24,788 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/sdk-default-configuration.json
+2025-04-24 14:35:24,789 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7904aa819870>
+2025-04-24 14:35:24,809 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2025-04-24 14:35:24,821 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2025-04-24 14:35:24,836 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2025-04-24 14:35:24,844 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/partitions.json
+2025-04-24 14:35:24,846 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7904a9493520>
+2025-04-24 14:35:24,847 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7904ab086170>
+2025-04-24 14:35:24,909 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7904a94932e0>
+2025-04-24 14:35:24,910 - DEBUG - Looking for endpoint for s3 via: environment_service
+2025-04-24 14:35:24,910 - DEBUG - Looking for endpoint for s3 via: environment_global
+2025-04-24 14:35:24,910 - DEBUG - Looking for endpoint for s3 via: config_service
+2025-04-24 14:35:24,910 - DEBUG - Looking for endpoint for s3 via: config_global
+2025-04-24 14:35:24,910 - DEBUG - No configured endpoint found.
+2025-04-24 14:35:24,912 - DEBUG - Setting s3 timeout as (60, 60)
+2025-04-24 14:35:24,915 - DEBUG - Loading JSON file: /home/aniket/.local/lib/python3.10/site-packages/botocore/data/_retry.json
+2025-04-24 14:35:24,915 - DEBUG - Registering retry handlers for service: s3
+2025-04-24 14:35:24,915 - DEBUG - Registering S3 region redirector handler
+2025-04-24 14:35:24,916 - DEBUG - Registering S3Express Identity Resolver
+2025-04-24 14:35:24,916 - INFO - Processing: /home/aniket/Projects/PyBak/source/two.txt
+2025-04-24 14:35:24,917 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:35:24,917 - INFO - Processing: /home/aniket/Projects/PyBak/source/customers-1000_4.csv
+2025-04-24 14:35:24,933 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2025-04-24 14:35:24,933 - DEBUG - Using default client. pid: 6303, thread: 133060977479680
+2025-04-24 14:35:24,933 - DEBUG - Acquiring 0
+2025-04-24 14:35:24,934 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7904a8609b70>}) about to wait for the following futures []
+2025-04-24 14:35:24,934 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7904a8609b70>}) done waiting for dependent futures
+2025-04-24 14:35:24,934 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7904a8609b70>}) with kwargs {'client': <botocore.client.S3 object at 0x7904a951ba00>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7904a846e860>, 'osutil': <s3transfer.utils.OSUtils object at 0x7904a846e890>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7904a860a530>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7904a8609b70>}
+2025-04-24 14:35:24,934 - DEBUG - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7904a860a530> for transfer request: 0.
+2025-04-24 14:35:24,935 - DEBUG - Acquiring 0
+2025-04-24 14:35:24,935 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) about to wait for the following futures []
+2025-04-24 14:35:24,935 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) done waiting for dependent futures
+2025-04-24 14:35:24,935 - DEBUG - Executing task PutObjectTask(transfer_id=0, {'bucket': 'pyarchive', 'key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}) with kwargs {'client': <botocore.client.S3 object at 0x7904a951ba00>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7904a860b280>, 'bucket': 'pyarchive', 'key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'extra_args': {'ChecksumAlgorithm': 'CRC32'}}
+2025-04-24 14:35:24,936 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7904a931ea70>
+2025-04-24 14:35:24,936 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7904a931dea0>
+2025-04-24 14:35:24,936 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:35:24,936 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7904a931f370>
+2025-04-24 14:35:24,936 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7904a931de10>
+2025-04-24 14:35:24,936 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7904a931fd00>
+2025-04-24 14:35:24,936 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7904a846e6b0>>
+2025-04-24 14:35:24,937 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7904a93e75e0>>
+2025-04-24 14:35:24,937 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7904a931dc60>
+2025-04-24 14:35:24,937 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function _handle_request_validation_mode_member at 0x7904a9338430>
+2025-04-24 14:35:24,937 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7904a931feb0>
+2025-04-24 14:35:24,937 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7904a846e6b0>>
+2025-04-24 14:35:24,937 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pyarchive', 'Region': 'ap-south-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-04-24 14:35:24,938 - DEBUG - Endpoint provider result: https://pyarchive.s3.ap-south-1.amazonaws.com
+2025-04-24 14:35:24,938 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-04-24 14:35:24,938 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-04-24 14:35:24,939 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7904a931e170>
+2025-04-24 14:35:24,939 - DEBUG - Adding expect 100 continue header to request.
+2025-04-24 14:35:24,939 - DEBUG - Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7904a846e710>>
+2025-04-24 14:35:24,939 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x7904a931d870>
+2025-04-24 14:35:24,939 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_query_compatibility_header at 0x7904a93383a0>
+2025-04-24 14:35:24,939 - DEBUG - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7904a931f490>
+2025-04-24 14:35:24,939 - DEBUG - Making request for OperationModel(name=PutObject) with params: {'url_path': '/PyBak_20250424143524_customers-1000_4.csv.gz', 'query_string': {}, 'method': 'PUT', 'headers': {'x-amz-sdk-checksum-algorithm': 'CRC32', 'User-Agent': 'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': '100-continue', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'aws-chunked', 'X-Amz-Trailer': 'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': '83345'}, 'body': <botocore.httpchecksum.AwsChunkedWrapper object at 0x7904a86099c0>, 'auth_path': '/pyarchive/PyBak_20250424143524_customers-1000_4.csv.gz', 'url': 'https://pyarchive.s3.ap-south-1.amazonaws.com/PyBak_20250424143524_customers-1000_4.csv.gz', 'context': {'client_region': 'ap-south-1', 'client_config': <botocore.config.Config object at 0x7904a951bb50>, 'has_streaming_input': True, 'auth_type': 'v4', 'unsigned_payload': None, 's3_redirect': {'redirected': False, 'bucket': 'pyarchive', 'params': {'Bucket': 'pyarchive', 'Key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'Body': <s3transfer.utils.ReadFileChunk object at 0x7904a860b280>, 'ChecksumAlgorithm': 'CRC32'}}, 'input_params': {'Bucket': 'pyarchive', 'Key': 'PyBak_20250424143524_customers-1000_4.csv.gz'}, 'signing': {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'ap-south-1'}]}, 'checksum': {'request_algorithm': {'algorithm': 'crc32', 'in': 'trailer', 'name': 'x-amz-checksum-crc32'}}}}
+2025-04-24 14:35:24,940 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7904a846b9a0>
+2025-04-24 14:35:24,940 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7904a951b610>>
+2025-04-24 14:35:24,940 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7904a931dab0>
+2025-04-24 14:35:24,940 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7904a931fe20>
+2025-04-24 14:35:24,940 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7904a93384c0>
+2025-04-24 14:35:24,940 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7904a846e710>>
+2025-04-24 14:35:24,941 - DEBUG - Calculating signature using v4 auth.
+2025-04-24 14:35:24,941 - DEBUG - CanonicalRequest:
+PUT
+/PyBak_20250424143524_customers-1000_4.csv.gz
+
+content-encoding:aws-chunked
+host:pyarchive.s3.ap-south-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20250424T090524Z
+x-amz-decoded-content-length:83345
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2025-04-24 14:35:24,941 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250424T090524Z
+20250424/ap-south-1/s3/aws4_request
+a1c322db4d9fb2ce14fa5ed7d15d1eb8ef9cbac95120c9d99dc7c7d0e34223cb
+2025-04-24 14:35:24,941 - DEBUG - Signature:
+d31f5545d3f939c617d0703bd08f8352fd754e021a35fe26fc241ceb2fe9003b
+2025-04-24 14:35:24,941 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7904a846e0b0>>
+2025-04-24 14:35:24,941 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7904a846ba30>
+2025-04-24 14:35:24,941 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7904a931fc70>
+2025-04-24 14:35:24,942 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pyarchive.s3.ap-south-1.amazonaws.com/PyBak_20250424143524_customers-1000_4.csv.gz, headers={'x-amz-sdk-checksum-algorithm': b'CRC32', 'User-Agent': b'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'83345', 'X-Amz-Date': b'20250424T090524Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIASA55N2L7CMFGJQU3/20250424/ap-south-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=d31f5545d3f939c617d0703bd08f8352fd754e021a35fe26fc241ceb2fe9003b', 'amz-sdk-invocation-id': b'0e29aa1f-c05a-40d5-85af-d3fe421c46fa', 'amz-sdk-request': b'attempt=1'}>
+2025-04-24 14:35:24,945 - DEBUG - Certificate path: /home/aniket/.local/lib/python3.10/site-packages/certifi/cacert.pem
+2025-04-24 14:35:24,946 - DEBUG - Starting new HTTPS connection (1): pyarchive.s3.ap-south-1.amazonaws.com:443
+2025-04-24 14:35:25,121 - DEBUG - https://pyarchive.s3.ap-south-1.amazonaws.com:443 "PUT /PyBak_20250424143524_customers-1000_4.csv.gz HTTP/1.1" 301 None
+2025-04-24 14:35:25,122 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x7904a93381f0>
+2025-04-24 14:35:25,123 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x7904a9338040>
+2025-04-24 14:35:25,123 - DEBUG - Response headers: {'x-amz-bucket-region': 'us-east-1', 'x-amz-request-id': 'JQ51Y0ZTFEEKBVFM', 'x-amz-id-2': 'CHgsXcKduSIcEv0nLrwYDSj5McxGH6uwPnWKb5vBSK2YwueEjostqQZdzFHRJf+TZGhGzrwr7zybmIDFSOgm9A==', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 24 Apr 2025 09:05:24 GMT', 'Connection': 'close', 'Server': 'AmazonS3'}
+2025-04-24 14:35:25,123 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>PermanentRedirect</Code><Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message><Endpoint>s3.amazonaws.com</Endpoint><Bucket>pyarchive</Bucket><RequestId>JQ51Y0ZTFEEKBVFM</RequestId><HostId>CHgsXcKduSIcEv0nLrwYDSj5McxGH6uwPnWKb5vBSK2YwueEjostqQZdzFHRJf+TZGhGzrwr7zybmIDFSOgm9A==</HostId></Error>'
+2025-04-24 14:35:25,128 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x7904a9338310>
+2025-04-24 14:35:25,128 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7904a846e5f0>
+2025-04-24 14:35:25,128 - DEBUG - No retry needed.
+2025-04-24 14:35:25,128 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7904a846e6b0>>
+2025-04-24 14:35:25,128 - DEBUG - S3 client configured for region ap-south-1 but the bucket pyarchive is in region us-east-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2025-04-24 14:35:25,128 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7904a931feb0>
+2025-04-24 14:35:25,128 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7904a846e6b0>>
+2025-04-24 14:35:25,128 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pyarchive', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'PyBak_20250424143524_customers-1000_4.csv.gz', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2025-04-24 14:35:25,129 - DEBUG - Endpoint provider result: https://pyarchive.s3.us-east-1.amazonaws.com
+2025-04-24 14:35:25,129 - DEBUG - Updating URI from https://pyarchive.s3.ap-south-1.amazonaws.com/PyBak_20250424143524_customers-1000_4.csv.gz to https://pyarchive.s3.us-east-1.amazonaws.com/PyBak_20250424143524_customers-1000_4.csv.gz
+2025-04-24 14:35:25,129 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2025-04-24 14:35:25,129 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2025-04-24 14:35:25,129 - DEBUG - Response received to retry, sleeping for 0 seconds
+2025-04-24 14:35:25,131 - DEBUG - Rewinding stream: <botocore.httpchecksum.AwsChunkedWrapper object at 0x7904a86099c0>
+2025-04-24 14:35:25,132 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7904a846b9a0>
+2025-04-24 14:35:25,132 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7904a951b610>>
+2025-04-24 14:35:25,132 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7904a931dab0>
+2025-04-24 14:35:25,132 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x7904a931fe20>
+2025-04-24 14:35:25,132 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7904a93384c0>
+2025-04-24 14:35:25,132 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7904a846e710>>
+2025-04-24 14:35:25,132 - DEBUG - Calculating signature using v4 auth.
+2025-04-24 14:35:25,132 - DEBUG - CanonicalRequest:
+PUT
+/PyBak_20250424143524_customers-1000_4.csv.gz
+
+content-encoding:aws-chunked
+host:pyarchive.s3.us-east-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20250424T090525Z
+x-amz-decoded-content-length:83345
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2025-04-24 14:35:25,132 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250424T090525Z
+20250424/us-east-1/s3/aws4_request
+26bcd1639858cf994585d28d40e6eb035be108a5ce3079ba9eedbc1f3589a0b5
+2025-04-24 14:35:25,132 - DEBUG - Signature:
+0643e64b593e7eba8c30ae3615ca86f4a8ef0e697be97405740e48a0b687689f
+2025-04-24 14:35:25,133 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7904a846e0b0>>
+2025-04-24 14:35:25,133 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7904a846ba30>
+2025-04-24 14:35:25,133 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x7904a931fc70>
+2025-04-24 14:35:25,133 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pyarchive.s3.us-east-1.amazonaws.com/PyBak_20250424143524_customers-1000_4.csv.gz, headers={'x-amz-sdk-checksum-algorithm': b'CRC32', 'User-Agent': b'Boto3/1.38.1 md/Botocore#1.38.1 ua/2.1 os/linux#6.8.0-52-generic md/arch#x86_64 lang/python#3.10.12 md/pyimpl#CPython m/G cfg/retry-mode#legacy Botocore/1.38.1', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'83345', 'X-Amz-Date': b'20250424T090525Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIASA55N2L7CMFGJQU3/20250424/us-east-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=0643e64b593e7eba8c30ae3615ca86f4a8ef0e697be97405740e48a0b687689f', 'amz-sdk-invocation-id': b'0e29aa1f-c05a-40d5-85af-d3fe421c46fa', 'amz-sdk-request': b'ttl=20250424T090624Z; attempt=2; max=5'}>
+2025-04-24 14:35:25,133 - DEBUG - Certificate path: /home/aniket/.local/lib/python3.10/site-packages/certifi/cacert.pem
+2025-04-24 14:35:25,134 - DEBUG - Starting new HTTPS connection (1): pyarchive.s3.us-east-1.amazonaws.com:443
+2025-04-24 14:35:26,729 - DEBUG - https://pyarchive.s3.us-east-1.amazonaws.com:443 "PUT /PyBak_20250424143524_customers-1000_4.csv.gz HTTP/1.1" 200 0
+2025-04-24 14:35:26,730 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x7904a93381f0>
+2025-04-24 14:35:26,730 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x7904a9338040>
+2025-04-24 14:35:26,730 - DEBUG - Response headers: {'x-amz-id-2': 'YOZ4g87N1hBIUcKjrowAxUY6lK6Oeh52MGoobm99jiorF0VxqkGRKPrlE/+axZdv4it0GUPYv0c=', 'x-amz-request-id': 'JQ55GM9760ABMVNY', 'Date': 'Thu, 24 Apr 2025 09:05:26 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"45e1ae9d3304b4f434c204d37bcdf287"', 'x-amz-checksum-crc32': 'xePW4w==', 'x-amz-checksum-type': 'FULL_OBJECT', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2025-04-24 14:35:26,731 - DEBUG - Response body:
+b''
+2025-04-24 14:35:26,731 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x7904a9338310>
+2025-04-24 14:35:26,731 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7904a846e5f0>
+2025-04-24 14:35:26,731 - DEBUG - No retry needed.
+2025-04-24 14:35:26,731 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7904a846e6b0>>
+2025-04-24 14:35:26,732 - DEBUG - S3 request was previously redirected, not redirecting.
+2025-04-24 14:35:26,732 - DEBUG - Releasing acquire 0/None
+2025-04-24 14:35:26,733 - INFO - File 'PyBak_20250424143524_customers-1000_4.csv.gz' uploaded to 'pyarchive/PyBak_20250424143524_customers-1000_4.csv.gz'
+2025-04-24 14:35:26,927 - INFO - Processing: /home/aniket/Projects/PyBak/source/one.txt
+2025-04-24 14:35:26,928 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:35:26,928 - INFO - Processing: /home/aniket/Projects/PyBak/source/three.txt
+2025-04-24 14:35:26,928 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:35:27,023 - INFO - Processing: /home/aniket/Projects/PyBak/source/20mb-examplefile-com.txt
+2025-04-24 14:35:27,023 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:35:27,250 - INFO - Processing: /home/aniket/Projects/PyBak/source/50mb.txt
+2025-04-24 14:35:27,250 - INFO - Duplicate file so skipping archieval
+2025-04-24 14:35:27,250 - INFO - Compression completed.
+2025-04-24 14:35:27,250 - INFO - Generating Report
+2025-04-24 14:35:27,251 - INFO - Report generated /home/aniket/Projects/PyBak/reports/Report_RUN_2025-04-24_14-35-24.csv
+2025-04-24 14:35:27,251 - INFO - None
+2025-04-24 14:35:27,251 - INFO - Attached file: /home/aniket/Projects/PyBak/reports/Report_RUN_2025-04-24_14-35-24.csv
+2025-04-24 14:35:29,779 - INFO - Failed to send email: 'NoneType' object has no attribute 'encode'
